@@ -14,9 +14,14 @@ project("Modules2023")
 set(CMAKE_EXPERIMENTAL_CXX_MODULE_CMAKE_API "2182bf5c-ef0d-489a-91da-49dbc3090d2a")
 set(CMAKE_EXPERIMENTAL_CXX_MODULE_DYNDEP 1)
 
+enable_testing()
+
 # Default to C++ extensions being off. Clang's modules support have trouble
 # with extensions right now and it is not required for any other compiler
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD 23)
+
+find_package(GTest CONFIG REQUIRED)
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
 add_subdirectory("Modules2023")

@@ -1,0 +1,11 @@
+{
+  "name": "module-demo",
+  "version": "1.0",
+  "dependencies": [ "gtest" ],
+  "vcpkg-configuration": {
+    "default-registry": {
+      "kind": "builtin",
+      "baseline": "df40d1c476dc02d71b113e4a63c3a32b00ebb5bd"
+    }
+  }
+}
