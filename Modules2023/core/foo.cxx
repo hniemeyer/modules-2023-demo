@@ -8,3 +8,8 @@ export void say_hello()
 {
 	std::cout << "Hello World\n";
 }
+
+export int foo_calculation(const int a, const int b)
+{
+	return a + b;
+}

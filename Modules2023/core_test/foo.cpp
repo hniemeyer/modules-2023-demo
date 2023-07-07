@@ -2,9 +2,7 @@
 
 import foo;
 
-TEST(HelloTest, BasicAssertions) {
-	// Expect two strings not to be equal.
-	EXPECT_STRNE("hello", "world");
+TEST(core_test, foo_calculation) {
 	// Expect equality.
-	EXPECT_EQ(7 * 6, 42);
+	EXPECT_EQ(foo_calculation(5,6), 11);
 }
