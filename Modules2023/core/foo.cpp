@@ -3,7 +3,9 @@ export module foo;
 
 export import :io;
 
-export int foo_calculation(const int a, const int b)
-{
-	return a + b;
+namespace foo {
+	export int foo_calculation(const int a, const int b)
+	{
+		return a + b;
+	}
 }
