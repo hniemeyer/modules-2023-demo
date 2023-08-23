@@ -17,8 +17,9 @@ namespace core::io {
 		std::cout << "Hello " << name << " \n";
 	}
 
-	export void print_point(const geometry::point& p)
+	export template <typename T>
+	void print_point(const geometry::point<T>& p)
 	{
-		std::cout << "x = " << p.x << " y= " << p.y << " \n";
+		std::cout << "x = " << p.x << " y = " << p.y << " \n";
 	}
 }

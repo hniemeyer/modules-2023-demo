@@ -2,9 +2,10 @@ export module geometry;
 
 namespace geometry
 {
-	export struct point
+	export template <typename T>
+	struct point
 	{
-		double x;
-		double y;
+		T x;
+		T y;
 	};
 }
