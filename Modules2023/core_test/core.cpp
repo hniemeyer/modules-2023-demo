@@ -1,8 +1,8 @@
 #include <gtest/gtest.h>
 
-import foo;
+import core;
 
 TEST(core_test, foo_calculation) {
 	// Expect equality.
-	EXPECT_EQ(foo::foo_calculation(5,6), 11);
+	EXPECT_EQ(core::calculation(5,6), 11);
 }

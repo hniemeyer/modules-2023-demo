@@ -1,7 +1,7 @@
 
 add_executable(
   core_test
-  foo.cpp
+  "core.cpp"
 )
 target_link_libraries(
   core_test
