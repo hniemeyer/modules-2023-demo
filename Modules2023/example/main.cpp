@@ -1,8 +1,8 @@
-import foo;
+import core;
 
 int main()
 {
-	foo::io::say_hello();
-	foo::io::say_name("Hendrik");
-	foo::io::say_name("Welt");
+	core::io::say_hello();
+	core::io::say_name("Hendrik");
+	core::io::say_name("Welt");
 }

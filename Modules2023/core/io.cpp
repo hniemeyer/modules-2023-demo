@@ -2,9 +2,9 @@ module;
 #include <iostream>
 #include <string_view>
 
-export module foo:io;
+export module core:io;
 
-namespace foo::io {
+namespace core::io {
 	export void say_hello()
 	{
 		std::cout << "Hello World\n";
