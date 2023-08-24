@@ -6,8 +6,6 @@ set(CMAKE_EXPERIMENTAL_CXX_MODULE_DYNDEP 1)
 
 enable_testing()
 
-# Default to C++ extensions being off. Clang's modules support have trouble
-# with extensions right now and it is not required for any other compiler
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD 23)
 
