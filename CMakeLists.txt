@@ -1,7 +1,4 @@
-﻿# CMakeList.txt: CMake-Projektdatei der obersten Ebene. Führen Sie hier die globale Konfiguration aus,
-# und schließen Sie Unterprojekte ein.
-#
-cmake_minimum_required(VERSION 3.26)
+﻿cmake_minimum_required(VERSION 3.26)
 
 # Enable Hot Reload for MSVC compilers if supported.
 if(POLICY CMP0141)
